@@ -18,17 +18,7 @@
 2. 打开『微信Web开发者工具』的程序目录
   * Windows：使用资源管理器查看
   * Mac：右键点击图标，选择『显示包内容』
-3. 进入程序目录后，替换以下文件
-  * Windows：
-    * \package.nw\app\dist\components\create\createstep.js
-    * \package.nw\app\dist\stroes\windowStores.js
-    * \package.nw\app\dist\stroes\projectStores.js
-  * Mac：
-    * /Resources/app.nw/app/dist/components/create/createstep.js
-    * /Resources/app.nw/app/dist/stroes/windowStores.js
-    * /Resources/app.nw/app/dist/stroes/projectStores.js
-  
-  注意，这里微信工程师拼写错了，***是stroes没错***！！！
+3. 进入目录后，根据操作系统选择[crack-win](tree/master/crack-win/)或[crack-mac](tree/master/crack-mac/)下的文件夹直接覆盖同名文件夹
 4. Good luck
 
 ##扫码无法登录问题 please bind your wechat account to the appid first
